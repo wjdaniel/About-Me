@@ -50,6 +50,7 @@
     }
     .cv{
         flex:1;
+        padding-top: 50px; 
         padding-left: 50px; 
         justify-content: left;
         align-items: left;  
@@ -73,9 +74,18 @@
      
     }
 
-    .cv-paragraph{
+    .cv-paragraph.t1{
         margin-top:0;
-        font-size:20px;
+        font-size:14px;
+        text-align:left;
+        font-family: Verdana;
+        color:black;
+        margin-right: 25px;
+    }
+
+    .cv-paragraph.t2{
+        margin-top:0;
+        font-size:14px;
         text-align:left;
         font-family: Verdana;
         color:black;
@@ -92,7 +102,17 @@
     }
     .cv-paragraph.p2 {
         margin-top:0;
-        font-size: 28px;
+        font-size: 20px;
+        text-align: left;
+        font-family: Verdana;
+        color:black;
+        margin-right:25px;
+        border-top: 1px solid #6b6b6b
+    }
+    
+    .cv-paragraph.p3 {
+        margin-top:0;
+        font-size: 20px;
         text-align: left;
         font-family: Verdana;
         color:black;
@@ -117,16 +137,19 @@
         </div>
 
         <div class="cv">
-            <p class="cv-paragraph p1"><b>Curriculum Vitae</b></p1>
+            <p class="cv-paragraph p1"><b>Curriculum Vitae</b></p>
 
-            <p class="cv-paragraph p2"><b>Education</b></p2>
+            <p class="cv-paragraph p2"><b>Education</b></p>
 
-            <p class="cv-paragraph"><b>PhD in Earth & Environmental Sciences (2023 - )</b><br>
-            <i>Columbia University, New York City, USA</i></p3>
+            <p class="cv-paragraph t1"><b>PhD in Earth & Environmental Sciences (2023 - )</b><br>
+            <i>Columbia University, New York City, USA</i></p>
 
-            <p class="cv-paragraph"><b>BS (Hons) in Environmental Earth Systems Science, Geoscience (2019 - 2023)</b><br>
-            <i>Nanyang Technological University, Singapore</i></p4>
+            <p class="cv-paragraph t1"><b>BS (Hons) in Environmental Earth Systems Science, Geoscience (2019 - 2023)</b><br>
+            <i>Nanyang Technological University, Singapore</i></p>
 
+            <p class="cv-paragraph p3"><b>Honors & Awards</b></p>
+            <p class="cv-paragraph t2"><b>NTU Research Scholar (2021-2022)</b></p>
+            <p class="cv-paragraph t2"><b>Dean's List (2023)</b></p>
         </div>
     </div>
 </body>
